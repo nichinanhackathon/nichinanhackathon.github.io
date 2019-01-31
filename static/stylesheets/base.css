@@ -1,0 +1,70 @@
+/*
+ 独自に定義したCSSクラス名はsmall_snake_casseで記述すること。
+  これは、bootstrapのclassと区別をつけ、class名に重複があった場合に対応するため。
+ 独自タグを作成するのは原則禁止。
+*/
+
+/* ナビバーの下線 */
+
+.round-cap-bottom:after {
+    background-color: #c71585;
+    /* 線色 */
+    border-radius: 2.5px;
+    /* 線幅の半分 */
+    content: "";
+    display: block;
+    height: 5px;
+    /* 線幅 */
+    /* 参考元 : https://q-az.net/round-cap-border */
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.font_size_1 {
+    font-size: 2rem;
+}
+
+.font_size_2 {
+    font-size: 1.5rem;
+}
+
+.font_size_3 {
+    font-size: 1.2rem;
+}
+
+.font_size_4 {
+    font-size: 1rem;
+}
+
+.font_size_5 {
+    font-size: 0.8rem;
+}
+
+.font_size_6 {
+    font-size: 0.7rem;
+}
+
+.btn_size_1 {
+    width: 100%;
+    max-width: 15rem;
+}
