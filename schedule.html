@@ -3,302 +3,304 @@
 
 <head>
     <meta charset="utf-8">
-    
-    
+
+
     <!-- OGPタグ -->
+
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-    <meta property="og:title" content="日南ハッカソン×int" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://nichinanhackathon.github.io/index.html" />
-    <meta property="og:image" content="https://nichinanhackathon.github.io/static/images/logo/lets_hack_nichinan.png" />
-    <meta property="og:site_name" content="日南ハッカソン" />
-    <meta property="og:description" content="テーマ「日本一の〇〇を作ろう！」" />
-    <!--Twitter用の設定-->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@int_hackathon" />
-    
-        
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>日南ハッカソン</title>
-    <link rel="stylesheet" href="static/stylesheets/base.css">
+        <meta property="og:title" content="日南ハッカソン×int" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nichinanhackathon.github.io/index.html" />
+        <meta property="og:image" content="https://nichinanhackathon.github.io/static/images/logo/lets_hack_nichinan.png" />
+        <meta property="og:site_name" content="日南ハッカソン" />
+        <meta property="og:description" content="テーマ「日本一の〇〇を作ろう！」" />
+        <!--Twitter用の設定-->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@int_hackathon" />
 
-    <!--以下BootstrapCDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="/static/images/icon/favicon.ico">
-</head>
-<!-- ナビゲーションバーを上部に固定するため余白を確保 -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>日南ハッカソン</title>
+        <link rel="stylesheet" href="static/stylesheets/base.css">
 
-<body class="container" style="padding-top: 5rem">
-    <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link">
-                    <div style="color: black; font-weight: bold;">about</div>
-                </a>
-            </li>
-        </ul>
-        <a href="#" class="nav-lin round-cap-bottom" style="color: #c71585; font-weight: bold;">schedule</a>
-        <ul class="navbar-nav">
-            <li>
-                <a href="sponsor.html" class="nav-link">
-                    <div style="color: black; font-weight: bold;">sponsor</div>
-                </a>
-            </li>
-        </ul>
-        <a href="https://twitter.com/int_hackathon" target="_blank" class="nav-link"><img src="static/images/logo/Twitter_Logo_Blue.svg" style="height: 2rem" alt="Twitter"></a>
-    </nav>
+        <!--以下BootstrapCDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-    <div class="row">
-        <div class="col-6 offset-3" style="text-align: center">
-            <h2><b>schedule</b></h2>
-            <p></p>
-        </div>
-        <div class="col-8 offset-2" style="text-align: center">
-            <h5><b>開催日</b></h5>
-            <b>2019.3.9(sat)-3.10(sun)</b>
-            <p></p>
-            <h5><b>申込締切</b></h5>
-            <b>定員（40人）に達し次第終了</b>
-            <p></p>
-        </div>
-    </div>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/static/images/icon/favicon.ico">
+    </head>
+    <!-- ナビゲーションバーを上部に固定するため余白を確保 -->
 
-    <!-- 1日目 -->
-    <div class="row" style="padding-top: 2rem;">
-        <div class="col-8 offset-2" style="padding-bottom: 1rem;">
-            <div color="#c71585" style="text-align: center">
-                <button class="btn btn_size_1 rounded-pill disabled" style="background: #c71585"><b style="color: white">2018.03.09 (sat)</b></button>
+    <body class="container" style="padding-top: 5rem">
+        <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <div style="color: black; font-weight: bold;">about</div>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="nav-lin round-cap-bottom" style="color: #c71585; font-weight: bold;">schedule</a>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="sponsor.html" class="nav-link">
+                        <div style="color: black; font-weight: bold;">sponsor</div>
+                    </a>
+                </li>
+            </ul>
+            <a href="https://twitter.com/int_hackathon" target="_blank" class="nav-link sns_icon_anker"><img src="static/images/logo/Twitter_Logo_Blue.svg" style="height: 2rem" alt="Twitter"></a>
+            <a href="https://www.facebook.com/events/2215909591960015/" target="_blank" class="nav-link sns_icon_anker"><img src="static/images/logo/flogo_RGB_HEX-512.svg" style="height: 1.5rem" alt="Facebook"></a>
+        </nav>
+
+        <div class="row">
+            <div class="col-6 offset-3" style="text-align: center">
+                <h2><b>schedule</b></h2>
+                <p></p>
+            </div>
+            <div class="col-8 offset-2" style="text-align: center">
+                <h5><b>開催日</b></h5>
+                <b>2019.3.9(sat)-3.10(sun)</b>
+                <p></p>
+                <h5><b>申込締切</b></h5>
+                <b>定員（40人）に達し次第終了</b>
+                <p></p>
             </div>
         </div>
-        <div class="col-2">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>9:30</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card bg-light mb-3" style="height: 65px">
-                <div class="card-body">
-                    <h5 class="card-title"><b>受付</b></h5>
+        <!-- 1日目 -->
+        <div class="row" style="padding-top: 2rem;">
+            <div class="col-8 offset-2" style="padding-bottom: 1rem;">
+                <div color="#c71585" style="text-align: center">
+                    <button class="btn btn_size_1 rounded-pill disabled" style="background: #c71585"><b style="color: white">2018.03.09 (sat)</b></button>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-2">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>10:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 100px; background: #ffff7f">
-                <div class="card-body">
-                    <h5 class="card-title"><b>開会</b></h5>
-                    説明、スポンサー紹介
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>9:30</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card bg-light mb-3" style="height: 65px">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>受付</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>11:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 100px; background: #55acee">
-                <div class="card-body">
-                    <h5 class="card-title"><b>アイディアソン</b></h5>
-                    個人でアイディアを出す
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>10:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 100px; background: #ffff7f">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>開会</b></h5>
+                        説明、スポンサー紹介
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>12:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card bg-light mb-3" style="height: 100px;">
-                <div class="card-body">
-                    <h5 class="card-title"><b>お昼休憩</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>11:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 100px; background: #55acee">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>アイディアソン</b></h5>
+                        個人でアイディアを出す
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>13:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 100px; background: #55acee">
-                <div class="card-body">
-                    <h5 class="card-title"><b>アイディアソン</b></h5>
-                    チーム分け、企画検討
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>12:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card bg-light mb-3" style="height: 100px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>お昼休憩</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>14:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 250px; background: #55acee">
-                <div class="card-body">
-                    <h5 class="card-title"><b>開発</b></h5>
-                    チームごとに開発開始!!!
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>13:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 100px; background: #55acee">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>アイディアソン</b></h5>
+                        チーム分け、企画検討
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>18:30</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 65px; background: #ffff7f">
-                <div class="card-body">
-                    <h5 class="card-title"><b>中間発表</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>14:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 250px; background: #55acee">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>開発</b></h5>
+                        チームごとに開発開始!!!
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>19:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card bg-light mb-3" style="height: 100px;">
-                <div class="card-body">
-                    <h5 class="card-title"><b>1日目開発終了</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>18:30</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 65px; background: #ffff7f">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>中間発表</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
-    </div>
-
-
-    <!-- 2日目 -->
-    <div class="row" style="padding-top: 2rem; padding-bottom: 4rem">
-        <div class="col-8 offset-2">
-            <div color="#c71585" style="text-align: center; padding-bottom: 1rem;">
-                <button class="btn btn_size_1 rounded-pill disabled" style="background: #c71585"><b style="color: white">2018.03.10 (sun)</b></button>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
             </div>
-        </div>
-        <biv class="col-2">
-            <!-- 詰め物（グリッドシステム） -->
-        </biv>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>9:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 65px; background: #ffff7f">
-                <div class="card-body">
-                    <h5 class="card-title"><b>開会、朝食</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>19:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card bg-light mb-3" style="height: 100px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>1日目開発終了</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
-
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>9:30</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 180px; background: #55acee">
-                <div class="card-body">
-                    <h5 class="card-title"><b>開発再開</b></h5>
-                </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
             </div>
         </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
 
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>12:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card bg-light mb-3" style="height: 100px;">
-                <div class="card-body">
-                    <h5 class="card-title"><b>お昼休憩</b></h5>
+        <!-- 2日目 -->
+        <div class="row" style="padding-top: 2rem; padding-bottom: 4rem">
+            <div class="col-8 offset-2">
+                <div color="#c71585" style="text-align: center; padding-bottom: 1rem;">
+                    <button class="btn btn_size_1 rounded-pill disabled" style="background: #c71585"><b style="color: white">2018.03.10 (sun)</b></button>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <biv class="col-2">
+                <!-- 詰め物（グリッドシステム） -->
+            </biv>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>13:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 200px; background: #55acee">
-                <div class="card-body">
-                    <h5 class="card-title"><b>開発</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>9:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 65px; background: #ffff7f">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>開会、朝食</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>18:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 100px; background: #ffff7f">
-                <div class="card-body">
-                    <h5 class="card-title"><b>成果発表</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>9:30</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 180px; background: #55acee">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>開発再開</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
-        </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
 
 
-        <div class="col-2 col-md-3" style="text-align: right">
-            <b>19:00</b>
-        </div>
-        <div class="col-9 col-md-6">
-            <div class="card mb-3" style="height: 65px; background: #ffff7f">
-                <div class="card-body">
-                    <h5 class="card-title"><b>閉会式</b></h5>
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>12:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card bg-light mb-3" style="height: 100px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>お昼休憩</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-0 col-md-3">
-            <!-- 詰め物（グリッドシステム） -->
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
+
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>13:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 200px; background: #55acee">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>開発</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
+
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>18:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 100px; background: #ffff7f">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>成果発表</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
+
+
+            <div class="col-2 col-md-3" style="text-align: right">
+                <b>19:00</b>
+            </div>
+            <div class="col-9 col-md-6">
+                <div class="card mb-3" style="height: 65px; background: #ffff7f">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>閉会式</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-0 col-md-3">
+                <!-- 詰め物（グリッドシステム） -->
+            </div>
+
         </div>
 
-    </div>
-
-    <footer style="text-align: center; padding-top: 2rem;">
-        <small>Copyright (c) 日南ハッカソン</small>
-    </footer>
-</body>
+        <footer style="text-align: center; padding-top: 2rem;">
+            <small>Copyright (c) 日南ハッカソン</small>
+        </footer>
+    </body>
 
 </html>
