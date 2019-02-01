@@ -18,18 +18,27 @@
     /* 参考元 : https://q-az.net/round-cap-border */
 }
 
+.sns_icon_anker {
+    padding-left: 0.5rem;
+    padding-right: 0rem;
+}
+
 h1 {
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
+
 h3 {
     text-align: center;
 }
+
 h4 {
     text-align: center;
 }
+
 h5 {
     text-align: center;
 }
