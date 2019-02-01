@@ -9,18 +9,18 @@
 .round-cap-bottom:after {
     background-color: #c71585;
     /* 線色 */
-    border-radius: 2.5px;
+    border-radius: 2px;
     /* 線幅の半分 */
     content: "";
     display: block;
-    height: 5px;
+    height: 4px;
     /* 線幅 */
     /* 参考元 : https://q-az.net/round-cap-border */
 }
 
-a.sns_icon_anker {
-    padding-left: 0.5rem;
-    padding-right: 0rem;
+a.nav_anchor {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 h1 {
