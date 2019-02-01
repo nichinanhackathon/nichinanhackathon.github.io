@@ -18,7 +18,7 @@
     /* 参考元 : https://q-az.net/round-cap-border */
 }
 
-.sns_icon_anker {
+a.sns_icon_anker {
     padding-left: 0.5rem;
     padding-right: 0rem;
 }
@@ -77,3 +77,4 @@ footer {
     width: 100%;
     max-width: 15rem;
 }
+
