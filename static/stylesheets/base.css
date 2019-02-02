@@ -9,27 +9,40 @@
 .round-cap-bottom:after {
     background-color: #c71585;
     /* 線色 */
-    border-radius: 2.5px;
+    border-radius: 2px;
     /* 線幅の半分 */
     content: "";
     display: block;
-    height: 5px;
+    height: 4px;
     /* 線幅 */
     /* 参考元 : https://q-az.net/round-cap-border */
+}
+
+a.nav_anchor {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.padding_overview{
+    padding-bottom: 1rem;
 }
 
 h1 {
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
+
 h3 {
     text-align: center;
 }
+
 h4 {
     text-align: center;
 }
+
 h5 {
     text-align: center;
 }
@@ -68,3 +81,4 @@ footer {
     width: 100%;
     max-width: 15rem;
 }
+
