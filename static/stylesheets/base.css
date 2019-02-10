@@ -15,7 +15,7 @@
     display: block;
     height: 4px;
     /* 線幅 */
-    /* 参考元 : https://q-az.net/round-cap-border */
+    /* 参照元 : https://q-az.net/round-cap-border */
 }
 
 .padding_overview {
@@ -70,6 +70,12 @@ a.nav_anchor {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
 }
+
+footer a {
+    color: black;
+}
+
+
 
 section {
     padding-bottom: 2rem;
