@@ -1,0 +1,12 @@
+@media (max-width:12450px) {}
+
+/*タブレットを想定*/
+@media (max-width:769px) {}
+
+
+/*スマートフォンを想定*/
+@media (max-width:415px) {
+    .nav_sns_icon{
+        display: none;
+    }
+}
