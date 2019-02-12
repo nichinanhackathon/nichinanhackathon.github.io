@@ -18,6 +18,11 @@
     /* 参照元 : https://q-az.net/round-cap-border */
 }
 
+.padding_caption {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .padding_overview {
     padding-bottom: 1rem;
 }
