@@ -103,6 +103,11 @@ a.news_anchor:hover {
     text-decoration: none;
 }
 
+hr.news {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 html {
     height: 100%;
 }
