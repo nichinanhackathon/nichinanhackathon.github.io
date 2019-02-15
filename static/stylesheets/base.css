@@ -1,11 +1,4 @@
-/*
- 独自に定義したCSSクラス名はsmall_snake_casseで記述すること。
-  これは、bootstrapのclassと区別をつけ、class名に重複があった場合に対応するため。
- 独自タグを作成するのは原則禁止。
-*/
-
 /* ナビバーの下線 */
-
 .round-cap-bottom:after {
     background-color: #c71585;
     /* 線色 */
@@ -16,6 +9,12 @@
     height: 4px;
     /* 線幅 */
     /* 参照元 : https://q-az.net/round-cap-border */
+}
+
+.sponsor_img {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 
 .padding_caption {
@@ -63,6 +62,32 @@
     -ms-filter: "alpha(opacity=70)";
 }
 
+li.nav_active {
+    font-weight: bold;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+}
+
+a.nav_inactive {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+}
+
+a.nav_inactive:hover {
+    color: #c71585;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+}
+
 a.btn_entry:hover {
     background: #e62ea2;
 }
@@ -76,14 +101,42 @@ a.nav_anchor {
     padding-right: 0.25rem;
 }
 
-footer a {
+a.news_anchor {
+    padding-bottom: 0rem;
     color: black;
+    text-decoration: none;
 }
 
+a.news_anchor:hover {
+    padding-bottom: 0rem;
+    color: black;
+    text-decoration: none;
+}
 
+hr.news {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
 
 section {
     padding-bottom: 2rem;
+}
+
+section h1 {
+    font-size: 2rem;
 }
 
 h1 {
@@ -106,17 +159,12 @@ h5 {
     text-align: center;
 }
 
+footer a {
+    color: black;
+}
+
 footer {
     height: 100px;
     width: 100%;
     background: #f5f5f5;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    margin: 0;
 }
