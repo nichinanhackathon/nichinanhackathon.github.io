@@ -71,6 +71,16 @@ li.nav_active {
 }
 
 a.nav_inactive {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+}
+
+a.nav_inactive:hover {
+    color: #c71585;
     font-weight: bold;
     display: block;
     padding-top: 0.5rem;
