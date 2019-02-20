@@ -62,6 +62,11 @@
     -ms-filter: "alpha(opacity=70)";
 }
 
+img.link {
+    width: 1rem;
+    margin-bottom: 0.2rem;
+}
+
 li.nav_active {
     font-weight: bold;
     display: block;
