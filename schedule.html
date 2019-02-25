@@ -95,7 +95,8 @@
                 <p></p>
                 <h5><b>申込締切</b></h5>
                 <b>2019.2.28(thu)</b>
-                <p></p>
+                <p><span id="entry_num"></span>/40（人）</p>
+                <p><small>申込者数の反映に時間がかかる場合がございます。</small></p>
             </div>
         </section>
 
@@ -344,5 +345,24 @@
         </small>
     </footer>
 </body>
+<script type="text/javascript">
+    var xmlHttpRequest = new XMLHttpRequest();
+    xmlHttpRequest.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            if (this.response) {
+                // 読み込んだ後処理したい内容をかく
+                let entry_num = document.getElementById("entry_num");
+                entry_num.innerHTML = this.response.entry;
+            } else {
+                console.log(this.response);
+            }
+        }
+    }
+
+    xmlHttpRequest.open('GET', 'https://script.google.com/macros/s/AKfycbzXClhhpTW_yzyxY9FZRj45sxvN5dFELZPDNS0UuDyCZYZrqQnB/exec', true);
+    xmlHttpRequest.responseType = 'json';
+    xmlHttpRequest.send(null);
+
+</script>
 
 </html>
