@@ -112,15 +112,17 @@
                 <table class="table col-12 col-md-10 offset-md-1">
                     <tr>
                         <th>日付</th>
-                        <th>確保数(人)</th>
+                        <th>申込人数/確保数(人)</th>
                     </tr>
                     <tr>
                         <td>03.09(sat)</td>
-                        <td>16</td>
+                        <td>
+                            <span id="inn_entry_num"></span>/16
+                        </td>
                     </tr>
                     <tr>
                         <td>03.10(sun)</td>
-                        <td>8</td>
+                        <td>??/8</td>
                     </tr>
                 </table>
                 <small>
@@ -167,5 +169,24 @@
         </small>
     </footer>
 </body>
+<script type="text/javascript">
+    var xmlHttpRequest = new XMLHttpRequest();
+    xmlHttpRequest.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            if (this.response) {
+                // 読み込んだ後処理したい内容をかく
+                let inn_entry_num = document.getElementById("inn_entry_num");
+                inn_entry_num.innerHTML = this.response.inn;
+            } else {
+                console.log(this.response);
+            }
+        }
+    }
+
+    xmlHttpRequest.open('GET', 'https://script.google.com/macros/s/AKfycbzXClhhpTW_yzyxY9FZRj45sxvN5dFELZPDNS0UuDyCZYZrqQnB/exec', true);
+    xmlHttpRequest.responseType = 'json';
+    xmlHttpRequest.send(null);
+
+</script>
 
 </html>
