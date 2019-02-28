@@ -117,12 +117,14 @@
                     <tr>
                         <td>03.09(sat)</td>
                         <td>
-                            <span id="inn_entry_num"></span>/16
+                            <span id="inn_entry_num12"></span>/16
                         </td>
                     </tr>
                     <tr>
                         <td>03.10(sun)</td>
-                        <td>??/8</td>
+                        <td>
+                            <span id="inn_entry_num23"></span>/8
+                        </td>
                     </tr>
                 </table>
                 <small>
@@ -174,9 +176,11 @@
     xmlHttpRequest.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             if (this.response) {
-                // 読み込んだ後処理したい内容をかく
-                let inn_entry_num = document.getElementById("inn_entry_num");
-                inn_entry_num.innerHTML = this.response.inn;
+                // 読み込んだ後確保人数を表示する
+                let inn_entry_num12 = document.getElementById("inn_entry_num12");
+                let inn_entry_num23 = document.getElementById("inn_entry_num23");
+                inn_entry_num12.innerHTML = this.response.inn;
+                inn_entry_num23.innerHTML = this.response.inn2;
             } else {
                 console.log(this.response);
             }
