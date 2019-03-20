@@ -1,4 +1,5 @@
 /* ナビバーの下線 */
+
 .round-cap-bottom:after {
     background-color: #c71585;
     /* 線色 */
@@ -24,6 +25,11 @@
 
 .padding_overview {
     padding-bottom: 1rem;
+}
+
+padding_overview h4 {
+    text-align: center;
+    font-size: 0.5rem;
 }
 
 .font_size_1 {
