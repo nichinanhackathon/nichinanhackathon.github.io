@@ -26,10 +26,10 @@
     <!-- OGP設定 -->
     <meta property="og:title" content="日南ハッカソン×int" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://nichinanhackathon.github.io/making.html" />
+    <meta property="og:url" content="https://nichinanhackathon.github.io/accommodation.html" />
     <meta property="og:image" content="https://nichinanhackathon.github.io/static/images/logo/ogp_large.png" />
     <meta property="og:site_name" content="日南ハッカソン" />
-    <meta property="og:description" content="テーマ「日本一の〇〇を作ろう！」" />
+    <meta property="og:description" content="成果報告" />
     <!-- Facebook 設定 -->
     <meta property="fb:app_id" content="2007410222670880" />
     <!-- Twitter card 設定 -->
@@ -37,7 +37,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@int_hackathon" />
 
-    <!-- BootstrapCDN -->
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -53,42 +53,47 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand navbar-light bg-light" style="padding-left: 0.5rem">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav_inactive">
+                        <div>about</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/schedule.html" class="nav_inactive">
+                        <div>schedule</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/sponsor.html" class="nav_inactive">
+                        <div>sponsor</div>
+                    </a>
+                </li>
+                <li class="nav-item nav_sns_icon" style="padding-top: 0rem">
+                    <a href="https://twitter.com/int_hackathon" target="_blank" class="nav-link nav_anchor">
+                        <img src="/static/images/logo/Twitter_Logo_Blue.svg" style="height: 2rem;" alt="Twitter" title="イベントアカウント">
+                    </a>
+                </li>
+                <li class="nav-item nav_sns_icon">
+                    <a href="https://m.facebook.com/sokyakusojin/" target="_blank" class="nav-link nav_anchor">
+                        <img src="/static/images/logo/flogo_RGB_HEX-512.svg" style="height: 1.5rem" alt="Facebook" title="センターアカウント">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav class="navbar navbar-expand navbar-light bg-light" style="padding-left: 0.5rem">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="/index.html" class="nav_inactive">
-                    <div>about</div>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/schedule.html" class="nav_inactive">
-                    <div>schedule</div>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/sponsor.html" class="nav_inactive">
-                    <div>sponsor</div>
-                </a>
-            </li>
-            <li class="nav-item nav_sns_icon" style="padding-top: 0rem">
-                <a href="https://twitter.com/int_hackathon" target="_blank" class="nav-link nav_anchor">
-                    <img src="/static/images/logo/Twitter_Logo_Blue.svg" style="height: 2rem;" alt="Twitter" title="イベントアカウント">
-                </a>
-            </li>
-            <li class="nav-item nav_sns_icon">
-                <a href="https://m.facebook.com/sokyakusojin/" target="_blank" class="nav-link nav_anchor">
-                    <img src="/static/images/logo/flogo_RGB_HEX-512.svg" style="height: 1.5rem" alt="Facebook" title="センターアカウント">
-                </a>
-            </li>
-        </ul>
-    </nav>
-
     <div class="container" style="height: 100%">
-        <section style="padding-bottom: 50%; text-align: center; padding-top: 10%">
-            <h2>工事中...</h2>
-            <p>現在対象のページを製作中です。</p>
-            <img style="width: 25rem" src="/static/images/test/dot_cube.jpg" alt="Logo">
+        <section class="col-md-8 offset-md-2 col-12" style="text-align: center; padding-top: 10%">
+            <h1>お知らせ</h1>
+            <p>「日南ハッカソン×int」へ興味を持って頂き、ありがとうございまず。</p>
+            <p>当イベントは、2019.03.09(sat)-03.10(sun)に開催され、無事終了いたしました。次回の開催は未定です。</p>
+            <p><a href="/pages/report.html">報告ページはこちら</a></p>
+        </section>
+        <div class="col-md-2 col-0">
+        </div>
+        <section class="col-md-8 offset-md-2 col-12" style="text-align: center;">
+            <img style="width: 30remrem" src="/static/images/logo/nichinan_int.svg" alt="Logo">
         </section>
     </div>
     <!-- container ここまで -->
@@ -110,5 +115,26 @@
         </small>
     </footer>
 </body>
+<script type="text/javascript">
+    var xmlHttpRequest = new XMLHttpRequest();
+    xmlHttpRequest.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            if (this.response) {
+                // 読み込んだ後確保人数を表示する
+                let inn_entry_num12 = document.getElementById("inn_entry_num12");
+                let inn_entry_num23 = document.getElementById("inn_entry_num23");
+                inn_entry_num12.innerHTML = this.response.inn;
+                inn_entry_num23.innerHTML = this.response.inn2;
+            } else {
+                console.log(this.response);
+            }
+        }
+    }
+
+    xmlHttpRequest.open('GET', 'https://script.google.com/macros/s/AKfycbzXClhhpTW_yzyxY9FZRj45sxvN5dFELZPDNS0UuDyCZYZrqQnB/exec', true);
+    xmlHttpRequest.responseType = 'json';
+    xmlHttpRequest.send(null);
+
+</script>
 
 </html>

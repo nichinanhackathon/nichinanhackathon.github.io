@@ -1,12 +1,58 @@
-@media (max-width:12450px) {}
+@media (min-width:1200px) {
+    img.modal_img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+
+        padding: 0.2rem;
+        background: #dcdcdc;
+
+    }
+}
+
+@media (max-width:1200px) {
+    img.modal_img {
+        width: 210px;
+        height: 140px;
+        object-fit: cover;
+        padding: 0.2rem;
+        background: #dcdcdc;
+    }
+}
 
 /*タブレットを想定*/
-@media (max-width:769px) {}
+@media (max-width:767px) {
+    img.modal_img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        padding: 0.2rem;
+        background: #dcdcdc;
+    }
+}
 
+
+@media (max-width:576px) {
+    img.modal_img {
+        width: 180px;
+        height: 90px;
+        object-fit: cover;
+        padding: 0.2rem;
+        background: #dcdcdc;
+    }
+}
 
 /*スマートフォンを想定*/
 @media (max-width:415px) {
-    .nav_sns_icon{
+    img.modal_img {
+        width: 200px;
+        height: 133px;
+        object-fit: cover;
+        padding: 0.2rem;
+        background: #dcdcdc;
+    }
+
+    li.nav_sns_icon {
         display: none;
     }
 }
